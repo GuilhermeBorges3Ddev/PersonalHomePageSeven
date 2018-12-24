@@ -1,5 +1,7 @@
 <?php
 
-echo "STARTER POINT"
+echo "STARTER POINT FORCING A ERROR 404"
+
+echo "END OF THE CONFLICT TEXT"
 
 ?>
