@@ -1,5 +1,6 @@
 <?php
 
-echo "STARTER POINT"
+echo "STARTER POINT";
+echo "-------------";  
 
 ?>
