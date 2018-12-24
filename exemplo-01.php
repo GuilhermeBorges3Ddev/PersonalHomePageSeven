@@ -1,9 +1,9 @@
 <?php 
 
 $nome = "Hcode";
-$separador = "---------"; 
+$separador = "---------> "; 
 /*Apesar de fracamente tipada PHP aceita tipar, exemplo:*/
-String $name = "Gcode";
+//String $name = "Gcode";
 
 
 echo $nome; // Retorna apenas o tipo
