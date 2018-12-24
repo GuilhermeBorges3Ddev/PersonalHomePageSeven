@@ -1,5 +1,5 @@
 <?php
 
-echo "YOUR COMPUTER HAS BEEN HACKED ¬¬"
+echo "STARTER POINT"
 
 ?>
