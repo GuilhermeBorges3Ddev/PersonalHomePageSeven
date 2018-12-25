@@ -10,3 +10,4 @@ echo "ABC $nome";//Exemplo de concatenação texto com variável inline, interpo
 echo "<br/>";
 echo 'ABC $nome';
 
+?>
