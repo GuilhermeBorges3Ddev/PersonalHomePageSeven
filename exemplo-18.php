@@ -10,13 +10,13 @@ if ($qualASuaIdade < $idadeCrianca) {
 
 	echo "Criança";
 
-} else if ($qualASuaIdade < $idadeMaior) {
+} else if (($qualASuaIdade >= $idadeCrianca) && ($qualASuaIdade < $idadeMaior)) {
 	
 	echo "Adolescente";
 
-} elseif ($qualASuaIdade < $idadeMaior) {
+} elseif (($qualASuaIdade >= $idadeMaior) && ($qualASuaIdade < $idadeMelhor)) {
 	
-	echo "Adolescente";
+	echo "Adulto";
 
 } else {
 
