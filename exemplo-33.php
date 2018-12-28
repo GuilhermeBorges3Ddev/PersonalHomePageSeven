@@ -13,7 +13,7 @@ echo "<br><br />";
 switch (session_status()) {
 
 	case PHP_SESSION_DISABLED:
-		echo "0 --> Sessão desabilitada"
+		echo "0 --> Sessão desabilitada";
 		break;
 	
 	case PHP_SESSION_NONE:
