@@ -33,7 +33,7 @@ class Carro {
 	public function exibir(){
 		return array(
 			"modelo"=>$this->getModelo(),
-			"modelo"=>$this->getMotor(),
+			"motor"=>$this->getMotor(),
 			"ano"=>$this->getAno()
 		);
 	}
