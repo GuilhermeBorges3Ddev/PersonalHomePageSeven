@@ -13,6 +13,6 @@ SELECT * FROM tb_usuarios;
 
 UPDATE tb_usuarios SET dessenha = '123456' WHERE idusuario = 1;
 
-DELETE FROM tb_usuarios WHERE idusuario =3;
+DELETE FROM tb_usuarios WHERE idusuario =1;
 
 TRUNCATE TABLE tb_usuarios;
