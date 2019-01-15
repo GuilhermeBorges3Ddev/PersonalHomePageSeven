@@ -10,7 +10,7 @@ $password = "1234567890";
 
 //Atribui valores aos nossos id's passados na função prepare()
 $stmt->bindParam(":LOGIN",$login);
-$stmt->bindParam(":PASSWORD",$login);
+$stmt->bindParam(":PASSWORD",$password);
 
 $stmt->execute();
 
