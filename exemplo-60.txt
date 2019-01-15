@@ -1,0 +1,12 @@
+---> Install SQL Express 2014 sp1;
+ 
+---> Install the SSMS Client;
+
+---> Put the files .dll on your php/ext, 
+you can find these files on the folder:
+'drivers_php7.1_sql_server';
+
+--> Open the client of SQL Server and execute
+the folder 'exemplo-59.sql' on the database
+'dbo.dbphp7'
+_______________________________________________________________________________________________
