@@ -6,12 +6,7 @@ class Sql extends PDO {
 	
 	//Método construtor cria nossa conexão automaticamente, pois herdamos a classe PDO
 	public function __construct(){
-		$this->conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "root");
-	}
-	
-	//Cada parâmetro passado é uma chave que recebe um valor
-	private function setParam($statement, $key, $value){
-		$statement->bindParam($key, $value);
+		$this->conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "");
 	}
 
 	//Aqui os parãmetros são tratados como um array, da mesma forma damos um valor para cada chave, dentro do foreach()
@@ -19,6 +14,11 @@ class Sql extends PDO {
 		foreach ($parameters as $key => $value) {	
 			$this->setParam($statement, $key, $value);
 		}
+	}
+	
+	//Cada parâmetro passado é uma chave que recebe um valor
+	private function setParam($statement, $key, $value){
+		$statement->bindParam($key, $value);
 	}
 
 	//Essa função recebe uma query DML e seta os parâmetros para preparar o banco para a execução da query
