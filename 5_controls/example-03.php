@@ -1,5 +1,7 @@
 <?php
 
+/* Exemplo básico de laços de repetição usando for */
+
 for ($i = 0; $i < 10; $i++) {
 	//Este exemplo faz a contagem de 1 à 10
 	echo $i+1 . "<br />";
@@ -21,8 +23,5 @@ for ($i = 0; $i < 10; $i--) {
 	//Como não chegamos em 10 nunca, em 60 segundos o Php mata o processo.
 	echo $i ." ";
 }
-
-
-
 
 ?>
