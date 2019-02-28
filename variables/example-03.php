@@ -1,5 +1,9 @@
 <?php
 
+/* Tipos básicos: numéricos, flutuante, booleano e string */
+/* Tipos compostos: array e objeto */
+/* Tipos especiais: resource e null */
+
 //Tipos primitivos
 $nome = "Hcode";
 $site = 'www.hcode.com.br';
@@ -16,9 +20,10 @@ var_dump($nascimento);
 echo "<br/>";
 
 //Tipos especiais
-$arquivo = fopen("exemplo-03.php", "r");//
+$arquivo = fopen("example-03.php", "r");//
 var_dump($arquivo);
 echo "<br/>";
 $nulo = NULL;//Sem inicialização, assim que fica uma variável destruída por unsetting
 $vazio = "";//Foi iniciado mas não tem informação
+
 ?>
