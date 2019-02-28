@@ -1,6 +1,7 @@
 <?php
 $a = 10;
 
+//Operações de incremento e decremento (pré e pós)
 
 echo $a++;
 echo "<br />";
