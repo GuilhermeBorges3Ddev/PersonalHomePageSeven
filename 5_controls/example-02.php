@@ -1,6 +1,8 @@
 <?php
 
-$diaDaSemana = date("w");// 26/12/2018 é uma quarta, logo retorna '3'
+/* Estrutura básica de Switch-case no PHP */
+
+$diaDaSemana = date("w");// retorna o dia numericamente,ex: Sunday = 1
 
 switch ($diaDaSemana) {
 

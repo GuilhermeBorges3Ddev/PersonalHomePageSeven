@@ -1,5 +1,7 @@
 <?php
 
+/* While e Do-While no Php */
+
 $condicao = true;
 
 //Sorteio de números até que o número '3' seja sortead
@@ -25,9 +27,10 @@ echo "<br />";
 
  do{
 
- 	$total *= desconto;
+ 	$total *= $desconto;
  
  } while ($total >= 100);
 
  echo "Sua compra com desconto têm o valor de R$ $total";
+
 ?>

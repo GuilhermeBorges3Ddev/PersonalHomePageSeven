@@ -1,5 +1,7 @@
 <?php
 
+/* Estrutura base if-else-else if-elseif no php */
+
 $qualASuaIdade = 30;
 
 $idadeCrianca = 12;

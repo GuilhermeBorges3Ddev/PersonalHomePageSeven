@@ -1,6 +1,7 @@
 <?php
 
-//Exemplo de um percurso sobre o array de meses usando a sintaxe completa do foreach
+/* Exemplo de um percurso sobre o array de meses usando a sintaxe completa do foreach */
+
 $meses = array(
 	"Janeiro", "Fevereiro", "Março",
 	"Abril", "Maio", "Junho",
@@ -8,6 +9,7 @@ $meses = array(
 	"Outubro", "Novembro", "Dezembro" 
 );
 
+//Variável percorrida, chave e valor
 foreach ($meses as $index => $mes) {
 
 	$i = $index + 1;
