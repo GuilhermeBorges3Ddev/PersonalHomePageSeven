@@ -1,4 +1,5 @@
 <?php
+
 //Operador SpaceShip, ligado à versões PHP >= 7.0.0
 $a = 50;
 $b = 35;
@@ -11,4 +12,5 @@ $d = NULL;
 $e = 10;
 echo $c ?? $d ?? $e;//Leia "c" se nao for nulo, se for leia "d", se ele também for leia "e"
 //OBS: Ele para no primeiro não nulo, se todos forem nulos ele não retorna nada
+
 ?>

@@ -3,6 +3,7 @@
 $a = 55.0;
 $b = 55;
 
+//Operadores de comparação
 var_dump($a > $b);
 echo "<br/>";
 var_dump($a < $b);
