@@ -1,5 +1,7 @@
 <?php
 
+//Funções para Strings PHP
+
 $nome = "joao silva";
 $nome = strtoupper($nome);//Função que recebe uma String e o converte em uma maiúscula
 echo $nome;
