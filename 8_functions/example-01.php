@@ -1,5 +1,7 @@
 <?php
 
+/* Neste exemplo temos 2 funções em que usamos seu return para operarmos fora de seu escopo */
+
 function ola(){
 
 	//echo "Bem Vindo Usuário!<br />";
@@ -21,7 +23,5 @@ echo strlen($frase) . " caracteres, contando os espaços em branco <br><br />";
 //Usando a declaração da função com sintaxe mínima
 function salario(){ return 946.00;}
 echo "Maria recebeu um decimo terceiro salario de: " . (salario()*3);
-
-
 
 ?>

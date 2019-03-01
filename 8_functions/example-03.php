@@ -1,5 +1,7 @@
 <?php
 
+/* Capturaremos aqui os parâmetros passados para uma função... sendo que ela não é declarada com parâmetros */
+
 function ola(){
 
 	//Essa função pega os argumentos passados e os retorna dentro de um array

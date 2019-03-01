@@ -1,6 +1,8 @@
 <?php
 
-//Função anônima que utilizando parâmetro
+/* Toda função que roda sob uma variável ou comando e não possui retorno pode-se considerar anônima */
+
+//Função anônima utilizando parâmetro
 function test($callback){
 
 	//Processo supostamente lento colocamos uma func anônima para testar o tempo de execução por exemplo

@@ -1,5 +1,7 @@
 <?php
 
+/* Forçando a alteração de um array() via foreach() */
+
 $pessoa = array(
 	'nome' => 'Flavio',
 	'idade' => 20

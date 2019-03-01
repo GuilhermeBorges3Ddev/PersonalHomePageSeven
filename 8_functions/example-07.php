@@ -1,5 +1,7 @@
 <?php
 
+/* Neste exemplo usaremos recursão pra representar um organograma html+php */
+
 $hierarquia = array(
 	array(
 		'nome_cargo' => 'CEO',
