@@ -1,5 +1,7 @@
 <?php
 
+/* Usando as duas principais novidades do PHP7 para funções: (tipo $...variavel) e obrigar retorno com (:tipo) */
+
 function soma(int ...$valores):float {//O '...' nos indica um array de inteiros como argumento
 
 	return array_sum($valores);//Esta função faz a soma automática do array
