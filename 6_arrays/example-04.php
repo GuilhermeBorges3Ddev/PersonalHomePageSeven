@@ -1,5 +1,7 @@
 <?php
 
+/* Neste exemplo usaremos constantes e arrays constantes */
+
 define("SERVIDOR", "127.0.0.1");//Função define() usa como primeiro parâmetro o nome seguido do valor
 
 echo SERVIDOR;//Constantes não precisam do dollar '$' 
