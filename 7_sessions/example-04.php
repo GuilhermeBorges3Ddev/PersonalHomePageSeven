@@ -1,5 +1,7 @@
 <?php
 
+/* Neste example-04.php capturaremos o diretório /tmp e trataremos o estado da sessão capturada */
+
 require("config.php");
 
 //Recuperamos o diretório que contém os arquivos temporários "tmp"
