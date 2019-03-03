@@ -1,5 +1,9 @@
 <?php
 
+/*  Este exemplo contém uma pequena aplicação de setters e getters em uma classe,
+onde também utilizou-se de um método de exibição e também de atributos private para
+introduzir uma pequena noção dos modificadores de acesso */
+
 class Carro {
 
 	//O padrão para declaração sempre é private, não queremos expor a classe

@@ -1,5 +1,7 @@
 <?php
 
+/* Este exemplo possui uma aplicação de método estático na validação de um CPF passado a ele */
+
 class Documento {
 
 	//Atributo único
