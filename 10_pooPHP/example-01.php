@@ -1,5 +1,7 @@
 <?php
 
+/* Este exemplo contém a criação, acesso e modificação de um método e de um atributo */
+
 class Pessoa {
 
 	//Atributo
