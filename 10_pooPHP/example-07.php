@@ -1,5 +1,10 @@
 <?php
 
+/* 
+Este exemplo trata de interfaces, que são como contratos que obrigam os métodos
+que implementam a interface a implementar todos os métodos por padrão. 
+*/ 
+
 interface Veiculo {
 
 	//Obrigando todas as classes usarem os seguintes métodos:
