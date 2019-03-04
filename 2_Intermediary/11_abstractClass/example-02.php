@@ -1,5 +1,11 @@
 <?php
 
+/*
+Este exemplo contém polimorfismo aplicado sobre uma classe abstrata, 
+onde a classe Passaro sobrescreve e ainda complementa um compoetamento
+de um método de sua classe pai, que é o método falar()
+*/
+
 //Impedindo que o programador instancie diretamente um animal
 abstract class Animal {
 
@@ -47,7 +53,7 @@ class Passaro extends Animal {
 	public function mover(){
 
 		//Chamamos o método da classe mãe explicitamente e de maneira estática
-		return parent::mover(). "E ainda voou!!";	
+		return parent::mover(). " E ainda voou!!";	
 	
 	}	
 }
