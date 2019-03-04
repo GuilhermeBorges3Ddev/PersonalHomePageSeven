@@ -1,5 +1,7 @@
 <?php
 
+/* Este exemplo aplica diretamente um conceito fundamental da POO, a herança */
+
 class Documento {
 
 	//Número genérico e passivo de atribuição à qualquer documento
