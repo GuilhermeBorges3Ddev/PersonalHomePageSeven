@@ -15,8 +15,8 @@ spl_autoload_register("incluirClasses");
 //Permitindo autoload para classes de outros diretórios
 spl_autoload_register(function($nomeClasse){
 
-	if(file_exists("" . DIRECTORY_SEPARADOR . $nomeClasse . ".php") === true){
-		require_once("" . DIRECTORY_SEPARADOR . $nomeClasse . ".php");
+	if(file_exists("" . DIRECTORY_SEPARATOR . $nomeClasse . ".php") === true){
+		require_once("" . DIRECTORY_SEPARATOR . $nomeClasse . ".php");
 	} else {
 		echo "<br> Não possuímos classes a serem incluidas nesse diretorio <br />";
 	}
@@ -24,6 +24,7 @@ spl_autoload_register(function($nomeClasse){
 });
 
 
+/* Método mádico que requer uma variavel passada para ser incluída com o require_once */
 function __autoload($nomeClasse){
 
 	var_dump($nomeClasse);
