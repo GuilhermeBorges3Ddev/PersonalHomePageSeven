@@ -1,5 +1,7 @@
 <?php
 
+/* Este exemplo trata dos modificadores de acesso, que é um sinônimo de encapsulamento  */
+
 class Cadastro {
 
 	//Colocando 3 tipos de modificadores de acesso
@@ -20,7 +22,7 @@ class Programador extends Cadastro{
 	//Aqui ele chama o verDados() do programador
 	public function verDados(){
 
-		echo get_class($this);//De onde parte este método?!
+		echo "Este método partiu da classe: " . get_class($this);//De onde parte este método?!
 		echo "<br>";
 		echo $this->nome . "<br/>";
 		echo $this->idade . "<br/>";
