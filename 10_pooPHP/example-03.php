@@ -1,6 +1,7 @@
 <?php
 
-/* Este exemplo possui uma aplicação de método estático na validação de um CPF passado a ele */
+/* Este exemplo possui uma aplicação de método estático na validação de um CPF passado a ele,
+lembrando que métodos estáticos são aqueles que podem ser usados sem que instanciemos */
 
 class Documento {
 
