@@ -1,6 +1,8 @@
 <?php
+
 /*
-A variável $conn opera sobre a mesma conexão utilizada no exemplo-57.php
+A variável $conn opera sobre a mesma conexão utilizada no exemplo-03.php,
+porém usaremos aqui o comando select e o fetch para passar a query como JSON
 */
 
 //IP -> Usuário -> Senha -> BD
@@ -21,7 +23,7 @@ $result = $conn->query("SELECT * FROM tb_usuarios ORDER BY deslogin");
 $data = array();
 
 //Percorre linha à linha até dar EOF
-while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+while ($row = $result->fetch_array(MYSQLI_ASSOC)) {//fetch_assoc() sem parâmetros também funciona 
 
 	array_push($data, $row);//Adiciona cada $row dentro do array $data
 
