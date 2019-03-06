@@ -1,11 +1,15 @@
 <?php
 
+/*
+Nesta aula usamos o PHP para nos conectarmos ao MySQL Workbench e executarmos 
+modificações na DB 'bdphp7', onde há nossa tabela 'tb_usuarios'
+*/
+
 //IP -> Usuário -> Senha -> BD
 $conn = new mysqli("localhost","root","","dbphp7");
 
 //Condicional para verificação de erro no conexão
 if ($conn->connect_error){
-
 	echo "Error: " . $conn->connect_error;//Retorno vazio = sem erros!!
 	exit;
 }
