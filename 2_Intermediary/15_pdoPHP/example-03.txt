@@ -7,6 +7,6 @@ you can find these files on the folder:
 'drivers_php7.1_sql_server';
 
 --> Open the client of SQL Server and execute
-the folder 'exemplo-59.sql' on the database
+the folder 'example-02.sql' on the database
 'dbo.dbphp7'
 _______________________________________________________________________________________________
