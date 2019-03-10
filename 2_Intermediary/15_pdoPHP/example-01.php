@@ -26,7 +26,4 @@ foreach ($results as $row) {
 
 }
 
-//Verificando nosso fetch_all()
-var_dump($results);
-
 ?>
