@@ -1,7 +1,7 @@
 <?php
 
 //Nome do banco -> Database -> Local/Nome da Instância -> Estado de Conexão (0/1.mono/multithread) -> Login -> Senha
-$conn = new PDO("sqlsrv:Database=dbphp7;server=localhost\SQLEXPRESS;ConnectionPooling=0", "sa", "root");
+$conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "");
 
 //Execução da atualização com a notação de id
 $stmt = $conn->prepare("UPDATE  tb_usuarios SET deslogin = :LOGIN, dessenha = :PASSWORD WHERE idusuario = :ID");
