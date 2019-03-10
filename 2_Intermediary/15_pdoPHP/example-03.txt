@@ -1,6 +1,6 @@
----> Install SQL Express 2014 sp1;
+---> Install SQL Express 2014 sp1 (the real database);
  
----> Install the SSMS Client;
+---> Install the SSMS Client (only the client to execute the queries);
 
 ---> Put the files .dll on your php/ext, 
 you can find these files on the folder:
