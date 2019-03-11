@@ -1,10 +1,11 @@
 <?php 
 
+//Essa nossa classe criada herda da classe nativa PDO
 class Sql extends PDO {
 	
 	private $conn;
 	
-	//Método construtor cria nossa conexão automaticamente, pois herdamos a classe PDO
+	//Método construtor que cria nossa conexão automaticamente ao acessarmos a classe
 	public function __construct(){
 		$this->conn = new PDO("mysql:host=localhost;dbname=dbphp7", "root", "");
 	}
